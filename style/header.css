@@ -1,0 +1,64 @@
+header div {
+  padding-block: 1.12rem;
+  align-items: center;
+}
+
+.logo {
+  width: 9.25rem;
+  margin-right: 7.43rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  width: 22.625rem;
+  margin-right: 23.75rem;
+
+  a {
+    font-weight: 400;
+    color: var(--grey-500);
+    line-height: 1.25;
+  }
+
+  a:hover {
+    color: var(--red-content);
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: .75rem;
+
+  .one {
+    font-weight: 500;
+    color: var(--grey-500);
+    line-height: 1.25;
+
+    background-color: transparent;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .625rem 1.125rem;
+  }
+
+  button.one:hover {
+    background-color: var(--red-transparent);
+  }
+
+  .two {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.25;
+
+    background-color: var(--red-content);
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .625rem 1.125rem;
+  }
+
+  button.two:hover {
+    background-color: rgb(168, 44, 44);
+  }
+}

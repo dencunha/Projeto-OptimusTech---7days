@@ -1,0 +1,41 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red-content: rgba(142, 36, 36, 1);
+  --gray-50: rgba(249, 250, 251, 1);
+  --grey-500: rgba(102, 112, 133, 1);
+  --grey-900: rgba(16, 24, 40, 1);
+  --red-transparent: rgba(195, 25, 25, 0.03);
+
+  --ff: "Inter", sans-serif;
+  --fs-base: 1rem;
+  --fs-md: 1.25rem;
+
+}
+
+body {
+  font-family: var(--ff);
+  font-size: var(--fs-base);
+  color: var(--grey-900);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Utilitys */
+
+.container {
+  padding-inline: 2rem;
+  display: flex;
+}
+
+.pd-x {
+  padding-inline: 5rem;
+}
