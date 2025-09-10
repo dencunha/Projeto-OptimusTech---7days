@@ -1,0 +1,23 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  max-width: 49.5rem;
+  margin: 6rem auto;
+  gap: 1.5rem;
+
+  span {
+    font: 600 var(--fs-base)/1.5 var(--ff);
+    color: var(--red-content);
+  }
+
+  h1 {
+    font: 600 3rem/1.25 var(--ff);
+    color: var(--grey-900);
+  }
+
+  p {
+    font: 400 1.25rem/1.5 var(--ff);
+    color: var(--grey-500);
+    text-align: center;
+  }
+}

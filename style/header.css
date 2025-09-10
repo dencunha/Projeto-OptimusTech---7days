@@ -1,5 +1,5 @@
-header div {
-  padding-block: 1.12rem;
+header {
+  padding-block: 1rem;
   align-items: center;
 }
 
@@ -12,7 +12,7 @@ nav {
   display: flex;
   justify-content: space-between;
 
-  width: 22.625rem;
+  min-width: 22.625rem;
   margin-right: 23.75rem;
 
   a {
@@ -30,16 +30,18 @@ nav {
   display: flex;
   gap: .75rem;
 
-  .one {
-    font-weight: 500;
-    color: var(--grey-500);
-    line-height: 1.25;
-
-    background-color: transparent;
+  button {
     border: none;
     border-radius: .5rem;
     cursor: pointer;
     padding: .625rem 1.125rem;
+    line-height: 1.25;
+    font-weight: 500;
+  }
+
+  .one {
+    color: var(--grey-500);
+    background-color: transparent;
   }
 
   button.one:hover {
@@ -47,15 +49,8 @@ nav {
   }
 
   .two {
-    font-weight: 500;
     color: rgba(255, 255, 255, 1);
-    line-height: 1.25;
-
     background-color: var(--red-content);
-    border: none;
-    border-radius: .5rem;
-    cursor: pointer;
-    padding: .625rem 1.125rem;
   }
 
   button.two:hover {
